@@ -1,0 +1,13 @@
+public class Maps {
+  public static int[] map(int[] arr) {
+    
+    int[] newArray = new int [arr.length];
+    int count = 0;
+for(int one : arr){
+  newArray[count]= one*2;
+  count++;
+}
+        
+return newArray;
+  }
+}
